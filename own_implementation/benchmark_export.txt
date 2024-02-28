@@ -1,0 +1,506 @@
+===================== Nums 1 - 1000, spaced 10 =====================
+==================================> DIM_SIZE: 1
+Shared GPU time [ms]: 0.022176 0.489696
+Naive GPU time [ms]: 0.010112 0.19712
+CPU time [ms]: 0
+==================================> DIM_SIZE: 11
+Shared GPU time [ms]: 0.008576 0.185376
+Naive GPU time [ms]: 0.008416 0.181728
+CPU time [ms]: 0.001
+==================================> DIM_SIZE: 21
+Shared GPU time [ms]: 0.00816 0.2144
+Naive GPU time [ms]: 0.01024 0.184352
+CPU time [ms]: 0.006
+==================================> DIM_SIZE: 31
+Shared GPU time [ms]: 0.008192 0.184928
+Naive GPU time [ms]: 0.008576 0.177056
+CPU time [ms]: 0.023
+==================================> DIM_SIZE: 41
+Shared GPU time [ms]: 0.009632 0.185024
+Naive GPU time [ms]: 0.012192 0.17872
+CPU time [ms]: 0.055
+==================================> DIM_SIZE: 51
+Shared GPU time [ms]: 0.010048 0.180096
+Naive GPU time [ms]: 0.016064 0.18224
+CPU time [ms]: 0.107
+==================================> DIM_SIZE: 61
+Shared GPU time [ms]: 0.010432 0.188384
+Naive GPU time [ms]: 0.022528 0.183616
+CPU time [ms]: 0.197
+==================================> DIM_SIZE: 71
+Shared GPU time [ms]: 0.01232 0.198592
+Naive GPU time [ms]: 0.032768 0.192736
+CPU time [ms]: 0.311
+==================================> DIM_SIZE: 81
+Shared GPU time [ms]: 0.011968 0.206336
+Naive GPU time [ms]: 0.044384 0.22544
+CPU time [ms]: 0.502
+==================================> DIM_SIZE: 91
+Shared GPU time [ms]: 0.012544 0.223296
+Naive GPU time [ms]: 0.059616 0.21392
+CPU time [ms]: 0.714
+==================================> DIM_SIZE: 101
+Shared GPU time [ms]: 0.015136 0.22592
+Naive GPU time [ms]: 0.079104 0.217728
+CPU time [ms]: 1.011
+==================================> DIM_SIZE: 111
+Shared GPU time [ms]: 0.014976 0.24768
+Naive GPU time [ms]: 0.100352 0.257536
+CPU time [ms]: 1.376
+==================================> DIM_SIZE: 121
+Shared GPU time [ms]: 0.015168 0.255776
+Naive GPU time [ms]: 0.126304 0.244192
+CPU time [ms]: 1.856
+==================================> DIM_SIZE: 131
+Shared GPU time [ms]: 0.020448 0.294272
+Naive GPU time [ms]: 0.159968 0.238592
+CPU time [ms]: 2.367
+==================================> DIM_SIZE: 141
+Shared GPU time [ms]: 0.019744 0.274688
+Naive GPU time [ms]: 0.195424 0.267168
+CPU time [ms]: 2.969
+==================================> DIM_SIZE: 151
+Shared GPU time [ms]: 0.01984 0.295968
+Naive GPU time [ms]: 0.23856 0.255392
+CPU time [ms]: 3.89
+==================================> DIM_SIZE: 161
+Shared GPU time [ms]: 0.029344 0.466976
+Naive GPU time [ms]: 0.287744 0.311616
+CPU time [ms]: 4.795
+==================================> DIM_SIZE: 171
+Shared GPU time [ms]: 0.027232 0.467104
+Naive GPU time [ms]: 0.342976 0.34688
+CPU time [ms]: 5.874
+==================================> DIM_SIZE: 181
+Shared GPU time [ms]: 0.034368 0.592416
+Naive GPU time [ms]: 0.404256 0.412096
+CPU time [ms]: 6.922
+==================================> DIM_SIZE: 191
+Shared GPU time [ms]: 0.025376 0.401216
+Naive GPU time [ms]: 0.471936 0.366368
+CPU time [ms]: 8.561
+==================================> DIM_SIZE: 201
+Shared GPU time [ms]: 0.043968 0.469152
+Naive GPU time [ms]: 0.548096 0.418368
+CPU time [ms]: 9.486
+==================================> DIM_SIZE: 211
+Shared GPU time [ms]: 0.050048 0.551232
+Naive GPU time [ms]: 0.629376 0.360992
+CPU time [ms]: 11.282
+==================================> DIM_SIZE: 221
+Shared GPU time [ms]: 0.04784 0.575104
+Naive GPU time [ms]: 0.724768 0.439936
+CPU time [ms]: 13.023
+==================================> DIM_SIZE: 231
+Shared GPU time [ms]: 0.052512 0.65712
+Naive GPU time [ms]: 0.823648 0.397376
+CPU time [ms]: 14.668
+==================================> DIM_SIZE: 241
+Shared GPU time [ms]: 0.051744 0.700256
+Naive GPU time [ms]: 0.932704 0.435776
+CPU time [ms]: 16.725
+==================================> DIM_SIZE: 251
+Shared GPU time [ms]: 0.051328 0.724352
+Naive GPU time [ms]: 1.05002 0.465984
+CPU time [ms]: 18.323
+==================================> DIM_SIZE: 261
+Shared GPU time [ms]: 0.07136 0.76416
+Naive GPU time [ms]: 1.17978 0.471712
+CPU time [ms]: 20.821
+==================================> DIM_SIZE: 271
+Shared GPU time [ms]: 0.071296 0.711648
+Naive GPU time [ms]: 1.31795 0.462848
+CPU time [ms]: 23.333
+==================================> DIM_SIZE: 281
+Shared GPU time [ms]: 0.070176 0.672704
+Naive GPU time [ms]: 1.46771 0.517088
+CPU time [ms]: 27.846
+==================================> DIM_SIZE: 291
+Shared GPU time [ms]: 0.08736 1.01206
+Naive GPU time [ms]: 1.62806 0.713696
+CPU time [ms]: 30.236
+==================================> DIM_SIZE: 301
+Shared GPU time [ms]: 0.0808 0.776096
+Naive GPU time [ms]: 1.79674 0.526752
+CPU time [ms]: 32.2
+==================================> DIM_SIZE: 311
+Shared GPU time [ms]: 0.07904 0.760864
+Naive GPU time [ms]: 1.98061 0.515488
+CPU time [ms]: 36.394
+==================================> DIM_SIZE: 321
+Shared GPU time [ms]: 0.105728 0.80688
+Naive GPU time [ms]: 2.17629 0.573536
+CPU time [ms]: 39.725
+==================================> DIM_SIZE: 331
+Shared GPU time [ms]: 0.112768 0.820064
+Naive GPU time [ms]: 2.38029 0.587936
+CPU time [ms]: 43.356
+==================================> DIM_SIZE: 341
+Shared GPU time [ms]: 0.106496 0.85648
+Naive GPU time [ms]: 2.6047 0.718336
+CPU time [ms]: 49.715
+==================================> DIM_SIZE: 351
+Shared GPU time [ms]: 0.110656 0.986432
+Naive GPU time [ms]: 2.84294 0.85216
+CPU time [ms]: 54.114
+==================================> DIM_SIZE: 361
+Shared GPU time [ms]: 0.11632 0.895168
+Naive GPU time [ms]: 3.08909 0.665504
+CPU time [ms]: 59.473
+==================================> DIM_SIZE: 371
+Shared GPU time [ms]: 0.119648 1.03664
+Naive GPU time [ms]: 3.35107 0.775488
+CPU time [ms]: 62.497
+==================================> DIM_SIZE: 381
+Shared GPU time [ms]: 0.12288 0.963936
+Naive GPU time [ms]: 3.62166 0.827488
+CPU time [ms]: 68.679
+==================================> DIM_SIZE: 391
+Shared GPU time [ms]: 0.15296 0.973408
+Naive GPU time [ms]: 3.92525 0.863616
+CPU time [ms]: 72.785
+==================================> DIM_SIZE: 401
+Shared GPU time [ms]: 0.150816 0.946336
+Naive GPU time [ms]: 4.22995 0.78784
+CPU time [ms]: 78.193
+==================================> DIM_SIZE: 411
+Shared GPU time [ms]: 0.148448 0.978912
+Naive GPU time [ms]: 4.54557 0.86272
+CPU time [ms]: 83.659
+==================================> DIM_SIZE: 421
+Shared GPU time [ms]: 0.185472 1.21107
+Naive GPU time [ms]: 4.88707 1.02614
+CPU time [ms]: 92.291
+==================================> DIM_SIZE: 431
+Shared GPU time [ms]: 0.187808 1.14275
+Naive GPU time [ms]: 5.24144 0.9592
+CPU time [ms]: 98.5
+==================================> DIM_SIZE: 441
+Shared GPU time [ms]: 0.186368 1.20368
+Naive GPU time [ms]: 5.61549 0.978112
+CPU time [ms]: 103.971
+==================================> DIM_SIZE: 451
+Shared GPU time [ms]: 0.234656 1.30854
+Naive GPU time [ms]: 6.0047 1.25658
+CPU time [ms]: 118.829
+==================================> DIM_SIZE: 461
+Shared GPU time [ms]: 0.226528 1.32509
+Naive GPU time [ms]: 6.40944 1.24909
+CPU time [ms]: 126.004
+==================================> DIM_SIZE: 471
+Shared GPU time [ms]: 0.228416 1.36
+Naive GPU time [ms]: 6.85293 1.18355
+CPU time [ms]: 128.4
+==================================> DIM_SIZE: 481
+Shared GPU time [ms]: 0.484832 1.37312
+Naive GPU time [ms]: 13.6879 1.16323
+CPU time [ms]: 137.226
+==================================> DIM_SIZE: 491
+Shared GPU time [ms]: 0.486688 1.46531
+Naive GPU time [ms]: 14.5368 1.44883
+CPU time [ms]: 155.22
+==================================> DIM_SIZE: 501
+Shared GPU time [ms]: 0.489536 1.48698
+Naive GPU time [ms]: 15.4469 1.30365
+CPU time [ms]: 159.24
+==================================> DIM_SIZE: 511
+Shared GPU time [ms]: 0.494368 1.45923
+Naive GPU time [ms]: 16.4075 1.36912
+CPU time [ms]: 176.537
+==================================> DIM_SIZE: 521
+Shared GPU time [ms]: 0.578304 1.65488
+Naive GPU time [ms]: 17.4061 1.53677
+CPU time [ms]: 185.537
+==================================> DIM_SIZE: 531
+Shared GPU time [ms]: 0.576928 1.72042
+Naive GPU time [ms]: 18.4019 1.58266
+CPU time [ms]: 196.363
+==================================> DIM_SIZE: 541
+Shared GPU time [ms]: 0.57776 1.75638
+Naive GPU time [ms]: 19.4613 1.58579
+CPU time [ms]: 208.696
+==================================> DIM_SIZE: 551
+Shared GPU time [ms]: 0.625344 1.78797
+Naive GPU time [ms]: 20.6047 1.5768
+CPU time [ms]: 224.842
+==================================> DIM_SIZE: 561
+Shared GPU time [ms]: 0.6232 1.74557
+Naive GPU time [ms]: 21.7551 1.64205
+CPU time [ms]: 237.507
+==================================> DIM_SIZE: 571
+Shared GPU time [ms]: 0.625536 1.81082
+Naive GPU time [ms]: 22.8876 1.76467
+CPU time [ms]: 247.291
+==================================> DIM_SIZE: 581
+Shared GPU time [ms]: 0.883872 1.78336
+Naive GPU time [ms]: 24.1535 1.71917
+CPU time [ms]: 262.232
+==================================> DIM_SIZE: 591
+Shared GPU time [ms]: 0.783904 1.76845
+Naive GPU time [ms]: 25.4286 1.60358
+CPU time [ms]: 284.743
+==================================> DIM_SIZE: 601
+Shared GPU time [ms]: 0.798368 2.09747
+Naive GPU time [ms]: 26.7569 1.87613
+CPU time [ms]: 296.38
+==================================> DIM_SIZE: 611
+Shared GPU time [ms]: 0.909312 2.05245
+Naive GPU time [ms]: 28.0777 1.85171
+CPU time [ms]: 308.47
+==================================> DIM_SIZE: 621
+Shared GPU time [ms]: 0.908256 2.12038
+Naive GPU time [ms]: 29.5179 1.93981
+CPU time [ms]: 317.775
+==================================> DIM_SIZE: 631
+Shared GPU time [ms]: 0.912704 2.04659
+Naive GPU time [ms]: 30.9953 1.9528
+CPU time [ms]: 330.646
+==================================> DIM_SIZE: 641
+Shared GPU time [ms]: 1.03584 2.18627
+Naive GPU time [ms]: 32.5532 2.0769
+CPU time [ms]: 364.057
+==================================> DIM_SIZE: 651
+Shared GPU time [ms]: 1.03504 2.21917
+Naive GPU time [ms]: 34.0092 2.07632
+CPU time [ms]: 368.276
+==================================> DIM_SIZE: 661
+Shared GPU time [ms]: 1.04208 2.00925
+Naive GPU time [ms]: 35.6584 1.93482
+CPU time [ms]: 390.776
+==================================> DIM_SIZE: 671
+Shared GPU time [ms]: 1.04045 2.33965
+Naive GPU time [ms]: 37.3171 2.06682
+CPU time [ms]: 402.313
+==================================> DIM_SIZE: 681
+Shared GPU time [ms]: 1.16358 2.26954
+Naive GPU time [ms]: 39.0994 2.09568
+CPU time [ms]: 425.42
+==================================> DIM_SIZE: 691
+Shared GPU time [ms]: 1.17014 2.31363
+Naive GPU time [ms]: 40.7398 2.25248
+CPU time [ms]: 443.834
+==================================> DIM_SIZE: 701
+Shared GPU time [ms]: 1.17018 2.3967
+Naive GPU time [ms]: 42.5829 2.33939
+CPU time [ms]: 473.446
+==================================> DIM_SIZE: 711
+Shared GPU time [ms]: 1.30605 2.45706
+Naive GPU time [ms]: 44.4629 2.25622
+CPU time [ms]: 472.822
+==================================> DIM_SIZE: 721
+Shared GPU time [ms]: 1.30784 2.5249
+Naive GPU time [ms]: 46.4482 2.34086
+CPU time [ms]: 503.202
+==================================> DIM_SIZE: 731
+Shared GPU time [ms]: 1.31466 2.72605
+Naive GPU time [ms]: 48.2941 2.61939
+CPU time [ms]: 538.009
+==================================> DIM_SIZE: 741
+Shared GPU time [ms]: 1.45581 2.66339
+Naive GPU time [ms]: 50.3899 2.54618
+CPU time [ms]: 557.149
+==================================> DIM_SIZE: 751
+Shared GPU time [ms]: 1.56339 2.88333
+Naive GPU time [ms]: 52.5353 2.73146
+CPU time [ms]: 574.977
+==================================> DIM_SIZE: 761
+Shared GPU time [ms]: 1.45482 2.5832
+Naive GPU time [ms]: 54.5811 2.34989
+CPU time [ms]: 590.734
+==================================> DIM_SIZE: 771
+Shared GPU time [ms]: 1.68544 2.60605
+Naive GPU time [ms]: 56.7252 2.4289
+CPU time [ms]: 625.326
+==================================> DIM_SIZE: 781
+Shared GPU time [ms]: 1.6903 2.58509
+Naive GPU time [ms]: 58.9911 2.4809
+CPU time [ms]: 642.34
+==================================> DIM_SIZE: 791
+Shared GPU time [ms]: 1.69382 2.73606
+Naive GPU time [ms]: 61.3905 2.52771
+CPU time [ms]: 682.697
+==================================> DIM_SIZE: 801
+Shared GPU time [ms]: 1.87872 2.64189
+Naive GPU time [ms]: 63.7773 2.91344
+CPU time [ms]: 697.956
+==================================> DIM_SIZE: 811
+Shared GPU time [ms]: 1.85565 2.69206
+Naive GPU time [ms]: 66.0085 2.5711
+CPU time [ms]: 734.627
+==================================> DIM_SIZE: 821
+Shared GPU time [ms]: 1.86102 2.71053
+Naive GPU time [ms]: 68.5894 2.61786
+CPU time [ms]: 741.129
+==================================> DIM_SIZE: 831
+Shared GPU time [ms]: 1.86141 2.79699
+Naive GPU time [ms]: 71.1789 2.52554
+CPU time [ms]: 777.018
+==================================> DIM_SIZE: 841
+Shared GPU time [ms]: 2.12262 2.75565
+Naive GPU time [ms]: 73.7336 2.64333
+CPU time [ms]: 821
+==================================> DIM_SIZE: 851
+Shared GPU time [ms]: 2.2201 3.12413
+Naive GPU time [ms]: 76.3397 2.86525
+CPU time [ms]: 822.767
+==================================> DIM_SIZE: 861
+Shared GPU time [ms]: 2.09626 3.11898
+Naive GPU time [ms]: 77.9766 2.84211
+CPU time [ms]: 889.217
+==================================> DIM_SIZE: 871
+Shared GPU time [ms]: 2.21059 2.91878
+Naive GPU time [ms]: 78.5995 2.72461
+CPU time [ms]: 929.533
+==================================> DIM_SIZE: 881
+Shared GPU time [ms]: 2.12758 3.10198
+Naive GPU time [ms]: 78.1007 2.83514
+CPU time [ms]: 940.932
+==================================> DIM_SIZE: 891
+Shared GPU time [ms]: 2.07162 3.2769
+Naive GPU time [ms]: 78.4072 3.00848
+CPU time [ms]: 955.541
+==================================> DIM_SIZE: 901
+Shared GPU time [ms]: 2.59686 3.29139
+Naive GPU time [ms]: 90.686 2.91533
+CPU time [ms]: 1021.3
+==================================> DIM_SIZE: 911
+Shared GPU time [ms]: 2.60198 3.23136
+Naive GPU time [ms]: 93.8924 2.82275
+CPU time [ms]: 1059.41
+==================================> DIM_SIZE: 921
+Shared GPU time [ms]: 2.20906 3.25722
+Naive GPU time [ms]: 78.4151 3.0121
+CPU time [ms]: 1123
+==================================> DIM_SIZE: 931
+Shared GPU time [ms]: 2.18403 3.48659
+Naive GPU time [ms]: 77.2473 3.09021
+CPU time [ms]: 1145.02
+==================================> DIM_SIZE: 941
+Shared GPU time [ms]: 2.1624 3.31549
+Naive GPU time [ms]: 78.2829 2.98176
+CPU time [ms]: 1206.76
+==================================> DIM_SIZE: 951
+Shared GPU time [ms]: 2.10013 3.62666
+Naive GPU time [ms]: 78.409 3.36154
+CPU time [ms]: 1282.47
+==================================> DIM_SIZE: 961
+Shared GPU time [ms]: 3.1664 3.66634
+Naive GPU time [ms]: 110.527 3.56986
+CPU time [ms]: 1487.77
+==================================> DIM_SIZE: 971
+Shared GPU time [ms]: 3.27658 3.73926
+Naive GPU time [ms]: 113.673 3.50643
+CPU time [ms]: 1387.18
+==================================> DIM_SIZE: 981
+Shared GPU time [ms]: 3.18083 3.70371
+Naive GPU time [ms]: 117.305 3.59533
+CPU time [ms]: 1628.46
+==================================> DIM_SIZE: 991
+Shared GPU time [ms]: 2.11789 3.38534
+Naive GPU time [ms]: 79.4845 3.29542
+CPU time [ms]: 1588.39
+===================== Nums 1000 - 4000, spaced 100 =====================
+==================================> DIM_SIZE: 1000
+Shared GPU time [ms]: 2.22957 3.50352
+Naive GPU time [ms]: 78.3666 3.14848
+CPU time [ms]: 1406.65
+==================================> DIM_SIZE: 1100
+Shared GPU time [ms]: 2.85818 4.04451
+Naive GPU time [ms]: 109.59 6.35706
+==================================> DIM_SIZE: 1200
+Shared GPU time [ms]: 3.62582 4.24682
+Naive GPU time [ms]: 139.576 7.47258
+==================================> DIM_SIZE: 1300
+Shared GPU time [ms]: 4.34698 4.86147
+Naive GPU time [ms]: 172.734 8.15744
+==================================> DIM_SIZE: 1400
+Shared GPU time [ms]: 5.29821 5.69043
+Naive GPU time [ms]: 216.032 9.12576
+==================================> DIM_SIZE: 1500
+Shared GPU time [ms]: 6.50698 6.44058
+Naive GPU time [ms]: 267.503 9.95946
+==================================> DIM_SIZE: 1600
+Shared GPU time [ms]: 7.46666 16.7709
+Naive GPU time [ms]: 326.106 14.9686
+==================================> DIM_SIZE: 1700
+Shared GPU time [ms]: 9.23997 18.1054
+Naive GPU time [ms]: 387.73 17.0652
+==================================> DIM_SIZE: 1800
+Shared GPU time [ms]: 10.8543 19.9291
+Naive GPU time [ms]: 458.686 18.6169
+==================================> DIM_SIZE: 1900
+Shared GPU time [ms]: 12.5726 21.6451
+Naive GPU time [ms]: 544.005 21.2837
+==================================> DIM_SIZE: 2000
+Shared GPU time [ms]: 14.5548 24.757
+Naive GPU time [ms]: 631.436 23.7116
+==================================> DIM_SIZE: 2100
+Shared GPU time [ms]: 16.6191 26.2628
+==================================> DIM_SIZE: 2200
+Shared GPU time [ms]: 19.1103 28.2123
+==================================> DIM_SIZE: 2300
+Shared GPU time [ms]: 21.5535 32.6234
+==================================> DIM_SIZE: 2400
+Shared GPU time [ms]: 24.4169 35.3643
+==================================> DIM_SIZE: 2500
+Shared GPU time [ms]: 28.5657 36.397
+==================================> DIM_SIZE: 2600
+Shared GPU time [ms]: 31.7676 41.3188
+==================================> DIM_SIZE: 2700
+Shared GPU time [ms]: 35.8747 46.2827
+==================================> DIM_SIZE: 2800
+Shared GPU time [ms]: 40.4449 47.2191
+==================================> DIM_SIZE: 2900
+Shared GPU time [ms]: 44.4263 50.4988
+==================================> DIM_SIZE: 3000
+Shared GPU time [ms]: 49.2435 56.295
+==================================> DIM_SIZE: 3100
+Shared GPU time [ms]: 53.8064 59.2493
+==================================> DIM_SIZE: 3200
+Shared GPU time [ms]: 59.0837 63.4562
+==================================> DIM_SIZE: 3300
+Shared GPU time [ms]: 66.3878 66.7521
+==================================> DIM_SIZE: 3400
+Shared GPU time [ms]: 72.5672 68.9112
+==================================> DIM_SIZE: 3500
+Shared GPU time [ms]: 79.6579 72.9733
+==================================> DIM_SIZE: 3600
+Shared GPU time [ms]: 85.8671 83.4176
+==================================> DIM_SIZE: 3700
+Shared GPU time [ms]: 93.0901 88.5999
+==================================> DIM_SIZE: 3800
+Shared GPU time [ms]: 101.145 95.1877
+==================================> DIM_SIZE: 3900
+Shared GPU time [ms]: 108.519 100.857
+==================================> DIM_SIZE: 4000
+Shared GPU time [ms]: 116.804 108.292
+===================== Nums divideable by 32 =====================
+==================================> DIM_SIZE: 32
+Shared GPU time [ms]: 0.020352 0.478144
+Naive GPU time [ms]: 0.01216 0.196032
+CPU time [ms]: 0.025
+==================================> DIM_SIZE: 64
+Shared GPU time [ms]: 0.010528 0.202016
+Naive GPU time [ms]: 0.028512 0.244864
+CPU time [ms]: 0.246
+==================================> DIM_SIZE: 128
+Shared GPU time [ms]: 0.016384 0.328608
+Naive GPU time [ms]: 0.149824 0.301632
+CPU time [ms]: 2.274
+==================================> DIM_SIZE: 256
+Shared GPU time [ms]: 0.04496 0.461728
+Naive GPU time [ms]: 1.12061 0.554752
+CPU time [ms]: 20.169
+==================================> DIM_SIZE: 512
+Shared GPU time [ms]: 0.268608 2.56368
+Naive GPU time [ms]: 8.86045 2.26554
+CPU time [ms]: 196.349
+==================================> DIM_SIZE: 1024
+Shared GPU time [ms]: 1.94278 7.89117
+Naive GPU time [ms]: 77.1659 7.24694
+CPU time [ms]: 3702.2
+==================================> DIM_SIZE: 2048
+Shared GPU time [ms]: 27.5102 27.0979
+Naive GPU time [ms]: 790.566 25.6218
+==================================> DIM_SIZE: 4096
+Shared GPU time [ms]: 123.701 112.283

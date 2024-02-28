@@ -1,0 +1,175 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CUDA C/C++: BUILD active file (RELEASE)",
+            "command": "nvcc",
+            "args": [
+                "-O2",
+                "-ccbin",
+                "g++",
+                "-m64",
+                "-gencode",
+                "arch=compute_52,code=sm_52",
+                "-gencode",
+                "arch=compute_60,code=sm_60",
+                "-gencode",
+                "arch=compute_61,code=sm_61",
+                "-gencode",
+                "arch=compute_70,code=sm_70",
+                "-gencode",
+                "arch=compute_75,code=sm_75",
+                "${file}",
+                "-I${workspaceFolder}/Common",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}-release"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "CUDA C/C++: RUN active file (RELEASE)",
+            "type": "shell",
+            "command": "${fileDirname}/${fileBasenameNoExtension}-release",
+            "dependsOn": [
+                "CUDA C/C++: BUILD active file (RELEASE)"
+            ],
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "CUDA C/C++: PROFILE (nsys) active file",
+            "type": "shell",
+            "command": "nsys",
+            "args": [
+                "profile",
+                "-f",
+                "true",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-t",
+                "cuda",
+                "--stats",
+                "true",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "CUDA C/C++: BUILD active file (DEBUG)",
+            "command": "nvcc",
+            "args": [
+                "-g",
+                "-G",
+                "-ccbin",
+                "g++",
+                "-m64",
+                "-gencode",
+                "arch=compute_52,code=sm_52",
+                "-gencode",
+                "arch=compute_60,code=sm_60",
+                "-gencode",
+                "arch=compute_61,code=sm_61",
+                "-gencode",
+                "arch=compute_70,code=sm_70",
+                "-gencode",
+                "arch=compute_75,code=sm_75",
+                "${file}",
+                "-I${workspaceFolder}/Common",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}-debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "CUDA C/C++: RUN active file (DEBUG)",
+            "type": "shell",
+            "command": "${fileDirname}/${fileBasenameNoExtension}-debug",
+            "dependsOn": [
+                "CUDA C/C++: BUILD active file (DEBUG)"
+            ],
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "CUDA C/C++: PROFILE (nsys) active file",
+            "type": "shell",
+            "command": "nsys",
+            "dependsOn": [
+                "CUDA C/C++: BUILD active file (DEBUG)"
+            ],
+            "args": [
+                "profile",
+                "-f",
+                "true",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}-debug",
+                "-t",
+                "cuda",
+                "--stats",
+                "true",
+                "${fileDirname}/${fileBasenameNoExtension}-debug"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "CUDA C/C++: PROFILE (ncu) active file",
+            "type": "process",
+            "command": "ncu",
+            "dependsOn": [
+                "CUDA C/C++: BUILD active file (DEBUG)"
+            ],
+            "args": [
+                "-f",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "--details-all",
+                "--print-summary",
+                "per-kernel",
+                "--metrics",
+                "all",
+                "--section",
+                "ComputeWorkloadAnalysis",
+                "--section",
+                "InstructionStats",
+                "--section",
+                "LaunchStats",
+                "--section",
+                "MemoryWorkloadAnalysis",
+                "--section",
+                "MemoryWorkloadAnalysis_Chart",
+                "--section",
+                "MemoryWorkloadAnalysis_Tables",
+                "--section",
+                "Occupancy",
+                "--section",
+                "SchedulerStats",
+                "--section",
+                "SpeedOfLight",
+                "--section",
+                "SpeedOfLight_HierarchicalSingleRooflineChart",
+                "--section",
+                "SpeedOfLight_RooflineChart",
+                "--section",
+                "WarpStateStats",
+                "--target-processes",
+                "all",
+                "${fileDirname}/${fileBasenameNoExtension}-debug"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
